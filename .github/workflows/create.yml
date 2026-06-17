@@ -1,0 +1,33 @@
+name: Fix Corrupt Gradle Wrapper
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix-wrapper:
+    name: Regenerate Gradle Wrapper
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Generate new Gradle Wrapper
+        run: gradle wrapper
+
+      - name: Commit and Push the Fixed File
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add gradle/wrapper/gradle-wrapper.jar gradlew gradlew.bat
+          git commit -m "Fix corrupt gradle wrapper from Cloud" || echo "No changes to commit"
+          git push

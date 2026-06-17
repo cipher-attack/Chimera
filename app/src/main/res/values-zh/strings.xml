@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chimera</string>
+    
+    <!-- Status -->
+    <string name="status_privileged">已获授权</string>
+    <string name="status_restricted">受限</string>
+    <string name="status_system_engaged">系统已运行</string>
+    <string name="status_system_locked">系统已锁定</string>
+    <string name="desc_hardware_loaded">硬件模块已加载。%1$d 个有效载荷激活。</string>
+    <string name="desc_root_required">需要Root权限才能加载硬件模块。</string>
+    
+    <!-- BentoHeader buttons -->
+    <string name="btn_mount_gadget">挂载设备</string>
+    <string name="btn_unmount">卸载</string>
+    
+    <!-- BentoHeader Bluetooth/Root -->
+    <string name="label_bt_hid_dev">蓝牙_HID_设备</string>
+    <string name="status_active">在线</string>
+    <string name="status_standby">待机</string>
+    <string name="status_down">离线</string>
+    <string name="label_click_to_init">点击初始化</string>
+    <string name="label_root_mgr">ROOT_管理器</string>
+    <string name="label_su_bin">SU文件</string>
+    <string name="label_na">不适用</string>
+    <string name="label_version_info">版本信息</string>
+    
+    <!-- BentoHeader Auto-Pair -->
+    <string name="title_auto_pair">自动配对蓝牙</string>
+    <string name="desc_auto_pair">拦截并自动接受系统的配对PIN码。</string>
+    <string name="hint_mac_address">00:11:22:33:44:55</string>
+    <string name="btn_force_pair">强制配对</string>
+    
+    <!-- BentoHeader ISO Mount -->
+    <string name="title_iso_mount">USB大容量存储 (ISO)</string>
+    <string name="desc_iso_mount">挂载ISO文件以充当目标计算机上的可启动Live USB驱动器。</string>
+    <string name="err_root_required">此功能需要ROOT权限</string>
+    <string name="hint_iso_path">/sdcard/Download/kali.iso</string>
+    <string name="btn_mount_iso">挂载ISO</string>
+    
+    <!-- BentoHeader RNDIS -->
+    <string name="title_rndis_web">RNDIS Web 远程控制</string>
+    <string name="desc_rndis_web">将手机变成USB以太网适配器并在 http://10.0.0.1:8080 启动Web界面。(需要连接USB)</string>
+    <string name="btn_start_rndis">启动RNDIS</string>
+    <string name="btn_stop">停止</string>
+
+    <!-- MainScreen -->
+    <string name="title_keyboard_region">键盘地区设置</string>
+    <string name="desc_select_lang">选择语言</string>
+    <string name="desc_root_terminal">Root终端</string>
+    <string name="label_adv">高级</string>
+    <string name="desc_settings">设置</string>
+    <string name="desc_search_github">在GitHub上搜索</string>
+    <string name="desc_import_payload">导入有效载荷</string>
+    <string name="desc_create_payload">新建</string>
+    <string name="desc_options">选项</string>
+    <string name="msg_no_scripts">未找到脚本。\n点击 + 创建有效载荷。</string>
+    
+    <string name="msg_downloading">下载中...</string>
+    <string name="msg_imported_success">成功导入 %1$s！</string>
+    <string name="msg_error">错误：%1$s</string>
+    <string name="msg_logs_copied">日志已复制</string>
+    
+    <string name="title_app_language">应用语言</string>
+    <string name="desc_app_language">更改界面语言（英文/中文）</string>
+
+    <!-- Dialogs -->
+    <string name="template_windows_rickroll">模板：Windows RickRoll</string>
+    <string name="template_mac_terminal">模板：Mac Terminal</string>
+    <string name="template_linux_reverse_shell">模板：Linux反向Shell</string>
+    <string name="template_win_wifi_dump">模板：WinWifi转储</string>
+    <string name="msg_execution_output_copied">执行输出已复制</string>
+    <string name="desc_close">关闭</string>
+    <string name="desc_use">使用</string>
+    <string name="desc_copy_output">复制输出</string>
+    <string name="title_create_payload">创建有效载荷</string>
+    <string name="title_edit_payload">编辑有效载荷</string>
+    <string name="label_script_name">脚本名称</string>
+    <string name="hint_script_name">例如：RickRoll, 反向Shell</string>
+    <string name="label_duckyscript_payload">DuckyScript载荷</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_save">保存</string>
+    <string name="title_execution_logs">执行日志</string>
+    <string name="btn_close">关闭</string>
+    <string name="search_payloads">搜索载荷...</string>
+    <string name="title_hak5_search">Hak5 载荷搜索</string>
+    <string name="msg_no_payloads_found">未找到\"%1$s\"相关的载荷</string>
+    <string name="btn_import_payload">导入载荷</string>
+
+    <!-- PayloadCard -->
+    <string name="btn_delete">删除</string>
+    <string name="desc_delete">删除</string>
+    <string name="msg_delete_confirm">您确定要删除 \'%1$s\' 吗？</string>
+    <string name="label_auto">(自动)</string>
+    <string name="label_auto_short">自动</string>
+    <string name="btn_run_bt">通过蓝牙运行</string>
+    <string name="btn_run_usb">通过USB运行</string>
+    <string name="label_bt">蓝牙</string>
+    <string name="label_root">Root</string>
+    <string name="desc_run_bt">通过蓝牙运行</string>
+    <string name="desc_run_root">通过坏USB(BadUSB)运行</string>
+    <string name="desc_auto_execute">设备连接自动执行</string>
+    <string name="desc_auto_execute_detail">USB连接时将自动运行此载荷</string>
+    <string name="label_ready">就绪</string>
+    <string name="label_auto_run_plug">插入时自动运行</string>
+
+    <!-- TelemetryDashboard -->
+    <string name="label_payload_delivered">载荷已发送</string>
+    <string name="label_live_telemetry">实时遥测</string>
+    <string name="msg_no_active_execution">没有活动执行。</string>
+    <string name="label_payload_status">载荷.状态</string>
+    <string name="label_hidg0">hidg0</string>
+    <string name="label_rate_ks">速率：%1$d k/s</string>
+    
+    <!-- AdvancedGadgetsScreen -->
+    <string name="title_deep_hardware_scan">深度硬件扫描</string>
+    <string name="btn_scan_now">立即扫描</string>
+    <string name="msg_no_scan_data">暂无扫描数据。</string>
+    
+    <string name="title_advanced_configfs">高级 ConfigFS</string>
+    <string name="title_gadget_rndis">RNDIS (网络控制模型)</string>
+    <string name="desc_gadget_rndis">模拟以太网网络接口</string>
+    <string name="title_gadget_acm">ACM (USB串口)</string>
+    <string name="desc_gadget_acm">模拟通过USB进行串口通信</string>
+    <string name="title_gadget_midi">MIDI (乐器)</string>
+    <string name="desc_gadget_midi">模拟USB MIDI接口</string>
+    <string name="title_gadget_mass_storage">大容量存储 (投放区)</string>
+    <string name="desc_gadget_mass_storage">模拟U盘。创建了一个64MB的存放区。</string>
+    <string name="title_loot_files">转储文件</string>
+    <string name="msg_no_loot_files">当前区域没有文件。</string>
+    <string name="title_hid_covert">HID隐蔽窃取 (LED灯)</string>
+    <string name="desc_hid_covert">解码来自大小写/数字锁定键的中断数据</string>
+    <string name="title_telemetry_logger">遥测记录器</string>
+    <string name="msg_no_events_logged">当前会话无事件日志。</string>
+    <string name="desc_clear_logs">清除日志</string>
+
+    <!-- InteractiveRootShellDialog -->
+    <string name="title_root_terminal">Root 终端</string>
+    <string name="status_connected">已连接</string>
+    <string name="status_disconnected">已断开</string>
+    <string name="desc_export_sdcard">导出到SD卡</string>
+    <string name="desc_clear_cache">清除缓存</string>
+    <string name="msg_logs_saved">日志已保存到 /sdcard/Download/</string>
+    <string name="desc_history_up">向上的历史记录</string>
+    <string name="desc_history_down">向下的历史记录</string>
+    <string name="title_interactive_root_c2">交互式 ROOT C2</string>
+    <string name="prompt_root">root@chimera:~#</string>
+    <string name="prompt_root_short">root@</string>
+    <string name="hint_enter_command">输入命令...</string>
+    
+    <!-- SettingsScreen -->
+    <string name="title_settings">设置</string>
+    <string name="header_appearance">界面外观</string>
+    <string name="title_visual_mode">视觉模式</string>
+    <string name="theme_dark">深色</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_night">夜间</string>
+    <string name="theme_terminal">终端模式</string>
+    <string name="theme_slate">板岩</string>
+    <string name="title_haptic_feedback">触觉反馈</string>
+    <string name="haptic_disabled">禁用</string>
+    <string name="haptic_light">轻微</string>
+    <string name="haptic_strong">强烈</string>
+    <string name="header_security">安全</string>
+    <string name="title_biometric_lock">生物识别锁定</string>
+    <string name="desc_biometric_lock">打开App需要指纹或人脸识别</string>
+    <string name="header_system_config">系统配置</string>
+    <string name="label_configfs_path">ConfigFS路径</string>
+    <string name="label_hid_dev_path">HID设备路径</string>
+    <string name="title_root_engine">Root引擎</string>
+    <string name="desc_root_engine">Shell执行方式</string>
+    <string name="header_payload_engine">载荷引擎</string>
+    <string name="title_stealth_mode">隐身模式</string>
+    <string name="desc_stealth_mode">隐藏载荷执行的横幅通知</string>
+    <string name="desc_auto_pair_settings">自动接受HID配对请求</string>
+    <string name="header_utilities_scripts">工具 &amp; 脚本</string>
+    <string name="title_preload_payloads">预加载常用载荷</string>
+</resources>

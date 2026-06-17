@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="120" height="120">
+  <style>
+    .logo-path { fill: #000000; }
+    @media (prefers-color-scheme: dark) {
+      .logo-path { fill: #FFFFFF; }
+    }
+  </style>
+  <path class="logo-path" d="M 74,24 L 44,24 L 20,54 L 44,84 L 74,84 L 64,68 L 48,68 L 32,54 L 48,40 L 64,40 Z" />
+</svg>

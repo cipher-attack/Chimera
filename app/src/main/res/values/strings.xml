@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Chimera</string>
+    
+    <!-- Status -->
+    <string name="status_privileged">PRIVILEGED</string>
+    <string name="status_restricted">RESTRICTED</string>
+    <string name="status_system_engaged">System Engaged</string>
+    <string name="status_system_locked">System Locked</string>
+    <string name="desc_hardware_loaded">Hardware modules loaded. %1$d payloads active.</string>
+    <string name="desc_root_required">Root access required to load hardware modules.</string>
+    
+    <!-- BentoHeader buttons -->
+    <string name="btn_mount_gadget">MOUNT GADGET</string>
+    <string name="btn_unmount">UNMOUNT</string>
+    
+    <!-- BentoHeader Bluetooth/Root -->
+    <string name="label_bt_hid_dev">BT_HID_DEV</string>
+    <string name="status_active">ACTIVE</string>
+    <string name="status_standby">STANDBY</string>
+    <string name="status_down">DOWN</string>
+    <string name="label_click_to_init">Click to Init</string>
+    <string name="label_root_mgr">ROOT_MGR</string>
+    <string name="label_su_bin">SU_BIN</string>
+    <string name="label_na">N/A</string>
+    <string name="label_version_info">Version Info</string>
+    
+    <!-- BentoHeader Auto-Pair -->
+    <string name="title_auto_pair">Auto-Pair Bluetooth</string>
+    <string name="desc_auto_pair">Intercepts &amp; auto-accepts system pairing PINs.</string>
+    <string name="hint_mac_address">00:11:22:33:44:55</string>
+    <string name="btn_force_pair">FORCE PAIR</string>
+    
+    <!-- BentoHeader ISO Mount -->
+    <string name="title_iso_mount">USB MASS STORAGE (ISO)</string>
+    <string name="desc_iso_mount">Mount an ISO file to act as a bootable Live USB drive on a target computer.</string>
+    <string name="err_root_required">ROOT REQUIRED FOR THIS FEATURE</string>
+    <string name="hint_iso_path">/sdcard/Download/kali.iso</string>
+    <string name="btn_mount_iso">MOUNT ISO</string>
+    
+    <!-- BentoHeader RNDIS -->
+    <string name="title_rndis_web">RNDIS WEB REMOTE CONTROL</string>
+    <string name="desc_rndis_web">Turn phone into a USB Ethernet adapter and start Web UI at http://10.0.0.1:8080. (Requires USB connection)</string>
+    <string name="btn_start_rndis">START RNDIS</string>
+    <string name="btn_stop">STOP</string>
+
+    <!-- MainScreen -->
+    <string name="title_keyboard_region">Keyboard Region</string>
+    <string name="desc_select_lang">Select Language</string>
+    <string name="desc_root_terminal">Root Terminal</string>
+    <string name="label_adv">Adv</string>
+    <string name="desc_settings">Settings</string>
+    <string name="desc_search_github">Search GitHub</string>
+    <string name="desc_import_payload">Import Payload</string>
+    <string name="desc_create_payload">Create Payload</string>
+    <string name="desc_options">Options</string>
+    <string name="msg_no_scripts">No scripts found.\nTap + to create a payload.</string>
+    
+    <string name="msg_downloading">Downloading...</string>
+    <string name="msg_imported_success">Imported %1$s successfully!</string>
+    <string name="msg_error">Error: %1$s</string>
+    <string name="msg_logs_copied">Logs Copied</string>
+    
+    <string name="title_app_language">App Language</string>
+    <string name="desc_app_language">Change UI language (English/Chinese)</string>
+    <!-- Dialogs -->
+    <string name="template_windows_rickroll">Template: Windows RickRoll</string>
+    <string name="template_mac_terminal">Template: Mac Terminal</string>
+    <string name="template_linux_reverse_shell">Template: Linux Reverse Shell</string>
+    <string name="template_win_wifi_dump">Template: Win Wifi Dump</string>
+    <string name="msg_execution_output_copied">Execution Output Copied</string>
+    <string name="desc_close">Close</string>
+    <string name="desc_use">Use</string>
+    <string name="desc_copy_output">Copy Output</string>
+    <string name="title_create_payload">Create Payload</string>
+    <string name="title_edit_payload">Edit Payload</string>
+    <string name="label_script_name">Script Name</string>
+    <string name="hint_script_name">e.g. RickRoll, Reverse Shell</string>
+    <string name="label_duckyscript_payload">DuckyScript Payload</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="btn_save">SAVE</string>
+    <string name="title_execution_logs">Execution Logs</string>
+    <string name="btn_close">CLOSE</string>
+    <string name="search_payloads">Search Payloads...</string>
+    <string name="title_hak5_search">Hak5 Payload Search</string>
+    <string name="msg_no_payloads_found">No payloads found for \"%1$s\"</string>
+    <string name="btn_import_payload">Import Payload</string>
+
+    <!-- PayloadCard -->
+    <string name="btn_delete">DELETE</string>
+    <string name="desc_delete">Delete</string>
+    <string name="msg_delete_confirm">Are you sure you want to delete \'%1$s\'?</string>
+    <string name="label_auto">(Auto)</string>
+    <string name="label_auto_short">AUTO</string>
+    <string name="btn_run_bt">RUN BT</string>
+    <string name="btn_run_usb">RUN USB</string>
+    <string name="label_bt">BT</string>
+    <string name="label_root">Root</string>
+    <string name="desc_run_bt">Run via Bluetooth</string>
+    <string name="desc_run_root">Run via BadUSB</string>
+    <string name="desc_auto_execute">Auto-Execute Device Connection</string>
+    <string name="desc_auto_execute_detail">Will automatically run this when USB is connected</string>
+    <string name="label_ready">READY</string>
+    <string name="label_auto_run_plug">AUTO-RUN ON PLUG</string>
+
+    <!-- TelemetryDashboard -->
+    <string name="label_payload_delivered">PAYLOAD DELIVERED</string>
+    <string name="label_live_telemetry">LIVE TELEMETRY</string>
+    <string name="msg_no_active_execution">No active execution.</string>
+    <string name="label_payload_status">PAYLOAD.STATUS</string>
+    <string name="label_hidg0">hidg0</string>
+    <string name="label_rate_ks">RATE: %1$d k/s</string>
+    
+    <!-- AdvancedGadgetsScreen -->
+    <string name="title_deep_hardware_scan">Deep Hardware Scan</string>
+    <string name="btn_scan_now">SCAN NOW</string>
+    <string name="msg_no_scan_data">No scan data available.</string>
+    
+    <string name="title_advanced_configfs">Advanced ConfigFS</string>
+    <string name="title_gadget_rndis">RNDIS (Network Control Model)</string>
+    <string name="desc_gadget_rndis">Emulates an Ethernet network interface</string>
+    <string name="title_gadget_acm">ACM (USB Serial Port)</string>
+    <string name="desc_gadget_acm">Emulates serial communication over USB</string>
+    <string name="title_gadget_midi">MIDI (Musical Instrument)</string>
+    <string name="desc_gadget_midi">Emulates a USB MIDI interface</string>
+    <string name="title_gadget_mass_storage">Mass Storage (Drop-zone)</string>
+    <string name="desc_gadget_mass_storage">Emulates USB Flash Drive. Creates a 64MB loot zone.</string>
+    <string name="title_loot_files">Loot Files</string>
+    <string name="msg_no_loot_files">No files currently in drop-zone.</string>
+    <string name="title_hid_covert">HID Covert Exfil (LEDs)</string>
+    <string name="desc_hid_covert">Decodes data from CapsLock/NumLock interrupts</string>
+    <string name="title_telemetry_logger">Telemetry Logger</string>
+    <string name="msg_no_events_logged">No events logged in the session.</string>
+    <string name="desc_clear_logs">Clear Logs</string>
+
+    <!-- InteractiveRootShellDialog -->
+    <string name="title_root_terminal">Root Terminal</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="desc_export_sdcard">Export To SDCard</string>
+    <string name="desc_clear_cache">Clear Cache</string>
+    <string name="msg_logs_saved">Logs saved to /sdcard/Download/</string>
+    <string name="desc_history_up">History Up</string>
+    <string name="desc_history_down">History Down</string>
+    <string name="title_interactive_root_c2">INTERACTIVE ROOT C2</string>
+    <string name="prompt_root">root@chimera:~#</string>
+    <string name="prompt_root_short">root@</string>
+    <string name="hint_enter_command">Enter command...</string>
+    
+    <!-- SettingsScreen -->
+    <string name="title_settings">Settings</string>
+    <string name="header_appearance">APPEARANCE</string>
+    <string name="title_visual_mode">Visual Mode</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_night">Night</string>
+    <string name="theme_terminal">Terminal</string>
+    <string name="theme_slate">Slate</string>
+    <string name="title_haptic_feedback">Haptic Feedback</string>
+    <string name="haptic_disabled">Disabled</string>
+    <string name="haptic_light">Light</string>
+    <string name="haptic_strong">Strong</string>
+    <string name="header_security">SECURITY</string>
+    <string name="title_biometric_lock">Biometric Lock</string>
+    <string name="desc_biometric_lock">Require fingerprint/face to open app</string>
+    <string name="header_system_config">SYSTEM CONFIGURATION</string>
+    <string name="label_configfs_path">ConfigFS Path</string>
+    <string name="label_hid_dev_path">HID Dev Path</string>
+    <string name="title_root_engine">Root Engine</string>
+    <string name="desc_root_engine">Execution method for shells</string>
+    <string name="header_payload_engine">PAYLOAD ENGINE</string>
+    <string name="title_stealth_mode">Stealth Mode</string>
+    <string name="desc_stealth_mode">Hide payload execution notifications</string>
+    <string name="desc_auto_pair_settings">Automatically accept HID pairings</string>
+    <string name="header_utilities_scripts">UTILITIES &amp; SCRIPTS</string>
+    <string name="title_preload_payloads">Preload Common Payloads</string>
+</resources>
